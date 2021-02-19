@@ -37,6 +37,7 @@ $ npm install
 ## Env File
 
 Create a new file called ".env" in the project root folder and paste the content of ".env-sample".
+
 Crie um novo arquivo chamado ".env" na diretório raiz do projeto e copie o conteúdo de ".env-sample".
 
 ## Running the app
