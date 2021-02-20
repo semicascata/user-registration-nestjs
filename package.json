@@ -11,7 +11,7 @@
   "scripts": {
     "postinstall": "npm run prestart:prod",
     "prestart:prod": "rimraf dist && npm run build",
-    "build": "npm run clean && nest build",
+    "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "node dist/main",
     "start:dev": "NODE_ENV=development nest start --watch",
