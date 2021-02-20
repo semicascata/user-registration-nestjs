@@ -1,11 +1,4 @@
 import * as dotenv from 'dotenv';
-
-if (process.env.NODE_ENV === 'development') {
-  dotenv.config();
-} else if (process.env.NODE_ENV === 'prod') {
-  dotenv.config({ path: `${__dirname}.env-sample` });
-}
-
 dotenv.config();
 
 // env and port
