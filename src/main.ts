@@ -43,7 +43,7 @@ async function bootstrap() {
     await app.listen(port);
     logger.log(`>_ server running on: http://localhost:${port}/api/v1/usreg/`);
   } catch (err) {
-    this.logger.error(`error starting server: ${err.message}`);
+    this.logger.error(`error starting server - ${err.message}`);
     throw new InternalServerErrorException(err);
   }
 }
