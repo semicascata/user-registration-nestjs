@@ -1,7 +1,10 @@
 {
   "name": "user-registration-nestjs",
   "version": "0.0.1",
-  "description": "",
+  "engines": {
+    "node": "12.18.3"
+  },
+  "description": "user registration api",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
