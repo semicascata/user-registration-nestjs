@@ -3,7 +3,8 @@ dotenv.config();
 
 // env and port
 export const nodeEnv: string = process.env.NODE_ENV;
-export const port: number = +process.env.PORT || +process.env.CUSTOM_PORT;
+export const port: number =
+  parseInt(process.env.PORT) || +process.env.CUSTOM_PORT;
 
 // typeorm postgresql
 export const tpType: string = process.env.TYPEORM_TYPE;
