@@ -40,7 +40,7 @@ async function bootstrap() {
       }),
     );
 
-    await app.listen(port);
+    await app.listen(+process.env.PORT || port);
     logger.log(`>_ server running on: http://localhost:${port}/api/v1/usreg/`);
   } catch (err) {
     this.logger.error(`error starting server: ${err.message}`);
